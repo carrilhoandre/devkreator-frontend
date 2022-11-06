@@ -20,7 +20,12 @@ const routes: Routes = [
   },
   {
     path: 'dashboard',
-    component: DashboardLayoutComponent
+    component: DashboardLayoutComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: () => import('./pages/dashboard/dashboard.module').then(m => m.DashboardModule)
+      }]
   }
 ];
 
