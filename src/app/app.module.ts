@@ -7,6 +7,7 @@ import { SiteLayoutComponent } from './layouts/site-layout/site-layout.component
 import { DashboardLayoutComponent } from './layouts/dashboard-layout/dashboard-layout.component';
 import { HeaderSiteComponent } from './shared/header-site/header-site.component';
 import { FooterSiteComponent } from './shared/footer-site/footer-site.component';
+import { HeaderDashboardComponent } from './shared/header-dashboard/header-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterSiteComponent } from './shared/footer-site/footer-site.component'
     SiteLayoutComponent,
     DashboardLayoutComponent,
     HeaderSiteComponent,
-    FooterSiteComponent
+    FooterSiteComponent,
+    HeaderDashboardComponent
   ],
   imports: [
     BrowserModule,

@@ -28,10 +28,12 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/assets/bootstrap/bootstrap.min.css",
+              "src/assets/bootstrap-icons/bootstrap-icons.css",
+              "node_modules/boxicons/css/boxicons.min.css",
               "src/styles.scss"
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.js"]
+            "scripts": []
           },
           "configurations": {
             "production": {
